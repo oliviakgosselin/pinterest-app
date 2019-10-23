@@ -1,0 +1,6 @@
+<ng-container *ngIf="{state$: store.state$ | async} as subs">
+    <div class="board-lst-ctn" *ngIf="!subs.state$.requests.listBoards.inProgress">
+        <tst-board-details *ngFor="let board of subs.state$.boards" [board]="board"></tst-board-details>
+    </div>
+    <tst-add-board (onAddBoard)="addBoard()"></tst-add-board>
+</ng-container>

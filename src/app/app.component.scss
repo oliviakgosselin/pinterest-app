@@ -1,0 +1,15 @@
+tst-header {
+    grid-area: header;
+}
+
+tst-left-side-panel {
+    grid-area: lsp;
+}
+
+[main] {
+    grid-area: main;
+}
+
+tst-footer {
+    grid-area: footer;
+}

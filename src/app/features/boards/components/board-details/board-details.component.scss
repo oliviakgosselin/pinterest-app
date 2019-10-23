@@ -1,0 +1,18 @@
+@import '../../../../styles/variables';
+
+.board-dets {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $color-gray-light;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.board-dets span {
+    font-size: 12px;
+}

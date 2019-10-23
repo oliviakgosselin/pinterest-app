@@ -1,0 +1,12 @@
+@import '../../styles/variables';
+
+:host {
+    display: flex;
+    background: $color-red;
+}
+
+.tst-header {
+    display: flex;
+    align-items: center;
+    color: $color-white;
+}

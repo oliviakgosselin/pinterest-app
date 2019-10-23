@@ -1,0 +1,26 @@
+@import '_variables';
+@import 'buttons';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+tst-root {
+    font-family: $font-family--default;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
+    grid-template-rows: 60px 1fr 70px;
+    grid-template-areas:
+        'header header header'
+        'lsp main main'
+        'footer footer footer';
+}

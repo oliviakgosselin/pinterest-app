@@ -1,0 +1,14 @@
+.tst-button {
+    outline: none;
+    color: $tst-button__color--default;
+    border: none;
+    font-size: 16px;
+    font-family: $font-family--default;
+    cursor: pointer;
+
+    &:hover {
+        outline: 0;
+        text-decoration: underline;
+        color: $color-gray-dark;
+    }
+}
